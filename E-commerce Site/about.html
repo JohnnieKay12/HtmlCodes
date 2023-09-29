@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page - RedStore</title>
+    <link rel="stylesheet" href="..//Stylesheet 1/index_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap=" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="..//Images 1/logo.png" type="image/x-icon">
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <a href=""><img src="..//Images 1/logo.png" width="130px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="..//index.html">Home</a></li>
+                 <li><a href="./product.html">Products</a></li>
+                 <li><a href="./about.html">About</a></li>
+                 <li><a href="#contact-page">Contact</a></li>
+                 <li><a href="./account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="./cart.html"><img src="..//Images 1/cart.png" width="30px" height="30px"></a>
+        <img src="..//Images 1/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div> 
+    </div>
+
+    
+    <!------------ About Page Content -------------->
+
+    <div class="about-content">
+        <div class="about-content-img">
+            <h3>Johnson John</h3>
+            <img src="..//Images 1/7077077e-81ed-4355-9ab6-0c9a528a0de9.jpg">
+        </div>
+        <h1>About RedStore™</h1>
+        <p>
+            RedStore™ is a community of likeminded e-commerce entrepreneurs who have come together to learn how to upscale their businesses and<br>outmaneuver their competition at every turn. <br><br>
+            Founded by Conversion Rate Expert, Johnson John – RedStore™ cuts out all the noise and bullshit and shows you what’s really working in the world of <br> e-commerce. <br><br><br>
+            After working with some of the world’s most sophisticated brands as a conversion rate optimization consultant and helping them achieve double and <br> sometimes triple-digit growth in under 12-months, Johnson decided to create his <a href="/facebook">groundbreaking training</a> that was first released in 2023 to help newer <br> store owners rapidly grow their businesses. <br><br>
+            Since then, Johnson has also created the world’s first split-testing training for Shopify stores, <br> <a href="">eCom Conversions.</a> <br><br>
+            He has also architected the <a href="">best converting Shopify theme</a> to help store owners shortcut <br> the learning curve of what helps and what hurts conversions by distilling his 16+ years of <br> experience as a consultant and store owner into an easy to install, <a href="">high-converting Shopify <br>Theme.</a>
+        </p>
+
+        
+<!-----------contact page------------>
+
+        <div id="contact-page">
+            <div class="contact-page1">
+                <h2>As featured on:</h2>
+                <img src="..//Images 1/image-727.png">
+            </div>
+            <div class="contact-page2">
+                <h2><b>To contact Johnson John</b> <br>
+                    or learn more about how RedStore can help you rapidly <br> grow your sales and profits, go to <a href="">redStore.net/contact</a></h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+<!----------- footer------------>
+
+<div class="footer">
+    <div class="container">
+     <div class="row">
+         <div class="footer-col-1">
+             <h3>Download Our App</h3>
+             <p>Download App for Andriod and ios mobile phone.</p>
+             <div class="app-logo">
+                 <img src="..//Images 1/play-store.png">
+                 <img src="..//Images 1/app-store.png">
+             </div>
+         </div>
+         <div class="footer-col-2">
+             <img src="..//Images 1/logo-white.png">
+             <p>Our Purpose Is to Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+         </div>
+         <div class="footer-col-3">
+             <h3>Useful Links</h3>
+             <ul>
+                 <li>Coupons</li>
+                 <li>Blog Post</li>
+                 <li>Return Policy</li>
+                 <li>Join Affiliate</li>
+             </ul>
+         </div>
+         <div class="footer-col-4">
+             <h3>Follow us</h3>
+             <ul>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Instagram</li>
+                 <li>YouTube</li>
+             </ul>
+         </div>
+     </div>
+     <hr>
+     <p class="copyright">Copyright 2023 - Johnnie Son</p>
+    </div> 
+ </div>
+<!------------js for toggle menu------------->
+ <script>
+     var MenuItems = document.getElementById("MenuItems");
+
+     MenuItems.style.maxHeight = "0px";
+
+     function menutoggle(){
+         if(MenuItems.style.maxHeight == "0px")
+         {
+             MenuItems.style.maxHeight = "200px"
+         }
+         else
+         {
+             MenuItems.style.maxHeight = "0px";
+         }
+     }
+ </script>
+
+</body>
+</html>
